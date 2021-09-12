@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Cafeteria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="ico.ico" type="image/x-icon">
+  </head>
+
+  <body>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="icone m-lg-2">
+                  <img src="coffee-icon.jpg" class="rounded-circle"  width="60" height="60">
+              </div>
+              <a class="navbar-brand" href="#">Hot Coffee!</a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item m-lg-3">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item m-lg-3">
+                    <a class="nav-link active" aria-current="page" href="#menu">Menu</a>
+                  </li>
+                  <li class="nav-item m-lg-3">
+                    <a class="nav-link active" aria-current="page" href="#localizacao">Localização</a>
+                  </li>
+                  <li class="nav-item m-lg-3">
+                    <a class="nav-link active" aria-current="page" href="#contato">Contato</a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+      </header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://source.unsplash.com/1400x500/?cookies" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1400x500/?coffe shop" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1400x500/?coffe" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <main>
+        <div class="container marketing mt-lg-5">
+        
+            <div class="row featurette mt-4">
+              <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Best Hot Coffee! <span class="text-muted">Venha experimentar!</span></h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fuga ipsa, accusantium labore optio, esse exercitationem maxime vero, et quas alias non delectus veritatis dolores! Repudiandae, dolores nulla! Expedita, nihil.</p>
+              </div>
+              <div class="col-md-5 order-md-1">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="300" src="espaco.png" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
+              </div>
+            </div>
+    
+            <hr class="featurette-divider">
+          </div>
+
+          <section id="menu">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 text-dark text-center my-3">
+                  <h1>Menu ☕</h1>
+                </div>
+              </div>
+              <div id="menu-itens" class="row">
+               <!--<div class="col-sm-4">
+                  <div class="card" style="width: 18rem;">
+                    <img src="coffee-menu.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>  
+                </div>
+                <div class="col-sm-4">
+                  <div class="card" style="width: 18rem;">
+                    <img src="" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>  
+                </div>
+              </div> 
+            </div>-->
+          </section>
+          <section class="localizacao bg-dark" id="localizacao">
+            <div class="col-sm-12 text-light text-center my-3 p-4">
+              <h1>Localização ☕</h1>
+            </div>
+            <div class="col-sm-12 align-items-center text-center my-3 pb-3">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12094.055627976906!2d-73.98745357990268!3d40.7287161560773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scoffee%20shop%20new%20york!5e0!3m2!1spt-BR!2sbr!4v1631388995424!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </section>
+          <section class="contato" id="contato">
+            <div class="container">
+              <main>
+                <div class="py-5 text-center">
+                  <img class="d-block mx-auto mb-4" src="contato-icon.png" alt="" width="72" height="57">
+                  <h2>Fale Conosco</h2>
+                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse doloribus consequatur a pariatur.</p>
+                </div>
+            
+                <div class="row g-5">
+                  <div class="col-md-7 col-lg-8 pb-4">
+                    <h4 class="mb-3">Preencha os campos</h4>
+                    <form class="formulario">
+                      <div class="row g-3">
+                        <div class="col-sm-3">
+                          <label for="firstName" class="form-label">Nome</label>
+                          <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                        </div>
+            
+                        <div class="col-sm-3">
+                          <label for="lastName" class="form-label">Sobrenome</label>
+                          <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                        </div>
+            
+                        <div class="col-12-sm-4">
+                          <div class="col-sm-4">
+                            <label for="username" class="form-label">Instagram</label>
+                          <div class="input-group has-validation">
+                            <span class="input-group-text">@</span>
+                            <input type="text"  class="form-control" id="username"  placeholder="Username" required="">
+                          </div>
+                          </div>
+                        </div>
+            
+                        <div class="col-12">
+                          <div class="col-sm-6">
+                            <label for="email" class="form-label">Email <span class="text-muted">(Opcional)</span></label>
+                          <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                          </div>
+                        </div>
+                        <div class="mb-4">
+                          <div class="col-sm-6">
+                            <label for="validationTextarea" class="form-label">Mensagem</label>
+                          <textarea class="form-control" id="validationTextarea" placeholder="Digite aqui a sua mensagem" required></textarea>
+                          </div>
+                        </div>
+            
+                      <button class="w-50 btn-dark btn-primary btn-lg" type="submit">Enviar</button>
+                    </form>
+                    
+                  </div>
+                  <div class="img-contato">
+                    <img src="contate-nos.jpg">
+  
+                  </div>
+                </div>
+              </main>
+          </section>
+      </main>
+      <footer>
+        <div class="dev">
+          <p>&copy; Alessandra Avelino, 2021</p>
+          <a href="https://www.instagram.com/alessandra_avellinoo" target="_blank"><img src="instagram.png" alt="Acessar instagram"></a>
+        </div>
+      </footer>
+
+
+
+    <script src="menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>

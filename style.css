@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img-contato img{
+    margin-top: -500px;
+    margin-left: 500px;
+    width: 550px;
+    height: 400px;
+}
+
+footer {
+    background: rgb(15, 8, 0);
+    color: white;
+    align-items: center;
+    text-align:center;
+    padding: 15px;
+}
+
+.dev img {
+    height: 50px; 
+    width: 50px;
+}
